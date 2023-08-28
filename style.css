@@ -1,0 +1,255 @@
+.flex-1 {
+    border: 1px solid gray;
+    height: 500px;
+    width: 350px;
+    margin-right: 15px;
+    padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+
+    
+}
+h1 {
+    margin-top: 2px;
+}
+.para {
+    display: flex;
+    margin-top: 2px;
+    
+}
+.percentage {
+    display: flex;
+}
+
+.progress-bar {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(black 79%, gray 0);    
+  }
+.flex-2 {
+    border: 1px solid gray;
+    height: 420px;
+    width: 300px;
+    padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+}
+body {
+    background-color: whitesmoke;
+}
+.workk {
+    color: gray;
+   
+
+    
+}
+.work {
+    display: flex;
+    
+
+}
+.work-time {
+    font-size: 10px;
+    margin: 30px;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+     
+}
+.block-container {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+}
+
+.block  {
+    border: 1px solid gray;
+    height: 100px;
+    width: 75px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+h5 {
+    text-align: center;
+}
+
+
+.circle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    margin: 18px;
+    position: relative;
+  }
+
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: transparent;
+    clip: rect(0px, 37px, 37px, 0px);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circle::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #70a5c3;
+    clip: rect(0px, 37px, 37px, 0px);
+    transform: rotate(0deg);
+    transform-origin: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circle[data-percent="62"]::before {
+    transform: rotate(226deg);
+  }
+
+  .circle[data-percent="15"]::before {
+    transform: rotate(54deg);
+  }
+
+  .circle[data-percent="11"]::before {
+    transform: rotate(33deg);
+  }
+
+  .circle[data-percent="12"]::before {
+    transform: rotate(36deg);
+  }
+
+  .text {
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+
+
+.top-cat {
+  color: gray;
+ position: relative;
+  margin-top: 20px;
+}
+
+.categories {
+  display: flex;
+}
+
+.hell {
+height: 6px;
+margin: 10px;
+width: 37px;
+}
+
+.matterr {
+padding: 15px;
+
+}
+
+.blockk {
+  border: 1px solid white;
+  width: 220px;
+  height: 33px;
+  border-radius: 5px;
+  background-color: lightgray;
+  display: flex;
+
+}
+.button {
+
+  margin-top: 5px;
+  justify-content: center;
+  margin: auto;
+  
+}
+button {
+  width: 70px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
+
+.buttons {
+  display: flex;
+}
+.icon-col {
+  height: 30px;
+
+}
+
+
+
+.button-1 {
+ 
+  height:33px ;
+  width: 45px;
+  border-radius: 3px;
+  background-color: lightgray;
+  border: 1px solid gray ;
+  box-shadow: black;
+
+  border-style: none;
+  box-sizing: border-box;
+  color:black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 1px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: white
+  ;
+}
+
+.faa-icons {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+
+}
+.iconss {
+  margin: auto;
+    padding: 20px;
+  
+   
+}
+i {
+  margin: 5px;
+}
